@@ -11,6 +11,7 @@ html {
 .body {
     max-width: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 :root {
@@ -32,8 +33,10 @@ h6 {
 }
 
 .container {
-    width: 1250px;
-    margin: auto;
+    max-width: 1250px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .style-h3 {
@@ -463,10 +466,10 @@ header .header-icon ul li a {
     content: "";
     background-image: url(../Images/dots.png);
     position: absolute;
-    width: 90%;
-    height: 90%;
-    left: -25px;
-    bottom: -25px;
+    width: 80%;
+    height: 80%;
+    left: 25px;
+    bottom: 25px;
     background-repeat: repeat;
     z-index: 1;
 }
